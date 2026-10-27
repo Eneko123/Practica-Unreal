@@ -18,13 +18,13 @@ public:
 	// Sets default values for this actor's properties
 	AClaseCpp();
 
-	UPROPERTY(VisibleAnywhere, Category = "ClaseCpp")
+	UPROPERTY(EditAnywhere, Category = "ClaseCpp")
 	TObjectPtr<USceneComponent> SceneRoot;
 
-	UPROPERTY(VisibleAnywhere, Category = "ClaseCpp")
+	UPROPERTY(EditAnywhere, Category = "ClaseCpp")
 	TObjectPtr<UStaticMeshComponent> Mesh;
 
-	UPROPERTY(VisibleAnywhere, Category = "ClaseCpp")
+	UPROPERTY(EditAnywhere, Category = "ClaseCpp")
 	TObjectPtr<UPointLightComponent> Light;
 
 

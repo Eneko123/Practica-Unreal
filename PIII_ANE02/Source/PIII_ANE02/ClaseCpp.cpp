@@ -26,8 +26,8 @@ AClaseCpp::AClaseCpp()
 void AClaseCpp::BeginPlay()
 {
 	Super::BeginPlay();
-	int number = 5;
-	UE_LOG(LogTemp, Warning, TEXT("--------------------------------------------------------------------------------------------------------------------------------------Number: %d"), number);
+	/*int number = 5;
+	UE_LOG(LogTemp, Warning, TEXT("--------------------------------------------------------------------------------------------------------------------------------------Number: %d"), number);*/
 }
 
 // Called every frame
